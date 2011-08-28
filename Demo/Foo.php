@@ -9,9 +9,9 @@ class Foo
         return "Hello";
     }
 
-    public function helloName($name)
+    public function helloName($name, $surname)
     {
-        return "Hello " . $name;
+        return "Hello " . $name . " " . $surname;
     }
 
     public function getUsers()

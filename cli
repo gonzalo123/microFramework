@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+<?php
+
+include("MicroFramework.php");
+$out = MicroFramework::factory()->cli();
+
+echo is_array($out) ? json_encode($out) : $out;
+
+echo "\n";
